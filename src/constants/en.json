@@ -1,0 +1,47 @@
+{
+	"information": {},
+	"workExperience": {
+		"title": "Work Experience",
+		"companies": "companies_en"
+	},
+	"education": {
+		"title": "Education",
+		"schools": "schools_en"
+	},
+	"protfolio": {
+		"title": "Portfolio"
+	},
+	"companies_en": [
+		{
+			"name": "Anue",
+			"location": "Taipei, TW",
+			"jobTitle": "Front-End Engineer",
+			"duration": "Sep 2021 - Present",
+			"link": "https://www.cnyes.com/"
+		},
+		{
+			"name": "Aptan Inc.",
+			"location": "Taipei, TW",
+			"jobTitle": "Front-End Engineer",
+			"duration": "Feb 2020 - Sep 2021",
+			"link": "https://www.aptan.io",
+			"description": [
+				"Create new feature and reusable React components.",
+				"Communicate with backend through RESTFUL API and Graphql client.",
+				"Write code that meets the team's coding style."
+			]
+		}
+	],
+	"schools_en": [
+		{
+			"name": "National Chengchi University (NCCU)",
+			"duration": "Sep 2016 - Jun 2019",
+			"master": "MS Computer Science"
+		},
+		{
+			"name": "National Ilan University (NIU)",
+			"duration": "Sep 2012 - Jun 2016",
+			"master": "BS Electronic Engineering"
+		}
+	]
+}

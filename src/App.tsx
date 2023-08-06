@@ -1,10 +1,17 @@
+import Education from 'components/Education/Education';
+import Information from 'components/Information/Information';
+import Portfolio from 'components/Portfolio/Portfolio';
+import WorkExperience from 'components/WorkExperience/WorkExperience';
 import './App.css';
 
 function App() {
   return (
-    <div className="text-green-700 text-lg font-bold">
-      Hello Resume
-    </div>
+    <main className="p-4">
+      <Information />
+      <WorkExperience />
+      <Education />
+      <Portfolio />
+    </main>
   );
 }
 
