@@ -6,7 +6,7 @@ import './App.css';
 
 function App() {
   return (
-    <main className="p-4">
+    <main className="p-4 max-w-[1200px] m-auto">
       <Information />
       <WorkExperience />
       <Education />
