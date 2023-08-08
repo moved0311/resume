@@ -1,9 +1,11 @@
 import { useTranslation} from 'react-i18next'
 import Section from "components/Section/Section"
 import language_en from "constants/en.json"
+import language_zh from 'constants/zh.json'
 
 const COMPANIES = {
-	"companies_en": language_en.companies_en
+	"companies_en": language_en.companies_en,
+	"companies_zh": language_zh.companies_zh
 }
 
 type COMPANIES_KEYS = keyof typeof COMPANIES
