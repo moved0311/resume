@@ -1,5 +1,4 @@
 {
-	"information": {},
 	"workExperience": {
 		"title": "工作經驗",
 		"companies": "companies_zh"
@@ -8,8 +7,9 @@
 		"title": "學歷",
 		"schools": "schools_zh"
 	},
-	"protfolio": {
-		"title": "作品集"
+	"portfolio": {
+		"title": "作品集",
+		"portfolio": "portfolio_zh"
 	},
 	"companies_zh": [
 		{
@@ -17,7 +17,14 @@
 			"location": "Taipei, TW",
 			"jobTitle": "前端工程師",
 			"duration": "2021年9月 - 現在",
-			"link": "https://www.cnyes.com/"
+			"link": "https://www.cnyes.com/",
+			"description": [
+				"提升SEO(正確使用標籤、網頁核心指標、SSR)",
+				"減少API呼叫次數(React Query)",
+				"撰寫單元測試 (Jest)",
+				"升級舊網站執行環境(Nodejs 8到Nodejs 12)"
+			],
+			"tags": []
 		},
 		{
 			"name": "晟悅科技有限公司",
@@ -29,7 +36,8 @@
 				"實現需求功能與可重複使用的元件",
 				"與後端工程師討論API規格",
 				"寫出符合團隊規範的程式碼風格"
-			]
+			],
+			"tags": []
 		}
 	],
 	"schools_zh": [
@@ -42,6 +50,17 @@
 			"name": "國立宜蘭大學",
 			"duration": "2012年9月 - 2016年6月",
 			"master": "電子工程學系"
+		}
+	],
+	"portfolio_zh": [
+		{
+			"name": "口罩地圖",
+			"tags": [
+				"React",
+				"Leafletjs"
+			],
+			"link": "https://moved0311.github.io/pharmacy-mask-map/",
+			"description": "在地圖上查詢區域內配合店家口罩剩餘數量"
 		}
 	]
 }

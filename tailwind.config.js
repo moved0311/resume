@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}",],
   theme: {
-    extend: {},
+    extend: {
+      content: {
+        link: 'url("./assets/link.svg")',
+      },
+    },
   },
   plugins: [],
 }

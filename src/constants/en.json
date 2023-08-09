@@ -1,5 +1,4 @@
 {
-	"information": {},
 	"workExperience": {
 		"title": "Work Experience",
 		"companies": "companies_en"
@@ -8,8 +7,9 @@
 		"title": "Education",
 		"schools": "schools_en"
 	},
-	"protfolio": {
-		"title": "Portfolio"
+	"portfolio": {
+		"title": "Portfolio",
+		"portfolio": "portfolio_en"
 	},
 	"companies_en": [
 		{
@@ -17,7 +17,18 @@
 			"location": "Taipei, TW",
 			"jobTitle": "Front-End Engineer",
 			"duration": "Sep 2021 - Present",
-			"link": "https://www.cnyes.com/"
+			"link": "https://www.cnyes.com/",
+			"tags": [
+				"Nextjs",
+				"TypeScript",
+				"Jest"
+			],
+			"description": [
+				"Enhance SEO. (Use semantic tags correctly, Core Web Vital, SSR)",
+				"Reduce the number of API calls. (React Query)",
+				"Write unit tests. (Jest)",
+				"Upgrade the old website runtime environment (from Node.js 8 to Node.js 12)."
+			]
 		},
 		{
 			"name": "Aptan Inc.",
@@ -25,6 +36,11 @@
 			"jobTitle": "Front-End Engineer",
 			"duration": "Feb 2020 - Sep 2021",
 			"link": "https://www.aptan.io",
+			"tags": [
+				"React",
+				"GraphQL",
+				"Git"
+			],
 			"description": [
 				"Create new feature and reusable React components.",
 				"Communicate with backend through RESTFUL API and Graphql client.",
@@ -42,6 +58,17 @@
 			"name": "National Ilan University (NIU)",
 			"duration": "Sep 2012 - Jun 2016",
 			"master": "BS Electronic Engineering"
+		}
+	],
+	"portfolio_en": [
+		{
+			"name": "Pharmacy mask map",
+			"tags": [
+				"React",
+				"Leafletjs"
+			],
+			"link": "https://moved0311.github.io/pharmacy-mask-map/",
+			"description": "Show the mask inventory of specialty pharmacies in the area through the map."
 		}
 	]
 }

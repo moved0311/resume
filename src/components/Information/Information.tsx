@@ -1,4 +1,4 @@
-import { useTranslation} from 'react-i18next'
+import { useTranslation } from 'react-i18next'
 
 
 const Information = () => {
@@ -22,16 +22,20 @@ const Information = () => {
 			</div>
 			<ul className="flex flex-col gap-2 mt-3 pl-3">
 				<li className='flex'>
-					<img alt="email-icon" src="/resume/assets/email.png" width={25} height={25} className='mr-2'/>
+					<img alt="email-icon" src="/resume/assets/email.png" width={25} height={25} className='mr-2' />
 					<a href="mailto:moved0311@gmail.com">moved0311@gmail.com</a>
 				</li>
 				<li className='flex'>
-					<img alt="github-icon" src="/resume/assets/github.png" width={25} height={25} className='mr-2'/>
+					<img alt="github-icon" src="/resume/assets/github.png" width={25} height={25} className='mr-2' />
 					<a href="https://github.com/moved0311">https://github.com/moved0311</a>
 				</li>
 				<li className='flex'>
-					<img alt="linkin-icon" src="/resume/assets/linkedin.png" width={25} height={25} className='mr-2'/>
+					<img alt="linkin-icon" src="/resume/assets/linkedin.png" width={25} height={25} className='mr-2' />
 					<a href="https://www.linkedin.com/in/jiang-taiyi/">https://www.linkedin.com/in/jiang-taiyi/</a>
+				</li>
+				<li className='flex'>
+					<img alt="blogger-icon" src="/resume/assets/blogger.svg" width={25} height={25} className='mr-2' />
+					<a href="https://moved0311.github.io/">https://moved0311.github.io/</a>
 				</li>
 			</ul>
 		</div>
