@@ -35,7 +35,7 @@ const Information = () => {
 				</li>
 				<li className='flex'>
 					<img alt="blogger-icon" src="/resume/assets/blogger.svg" width={25} height={25} className='mr-2' />
-					<a href="https://moved0311.github.io/">https://moved0311.github.io/</a>
+					<a href="https://www.taiyi.dev">https://www.taiyi.dev</a>
 				</li>
 			</ul>
 		</div>

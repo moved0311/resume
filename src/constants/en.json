@@ -61,6 +61,18 @@
 		}
 	],
 	"portfolio_en": [
+    {
+      "name": "Blog",
+      "tags": ["Nextjs", "tailwind", "TypeScript", "Contentlayer", "MDX"],
+      "link": "https://www.taiyi.dev",
+      "description": "A personal blog used to record some daily development notes."
+    },
+    {
+      "name": "Resume",
+      "tags": ["React", "Tailwind", "i18n"],
+      "link": "https://github.com/moved0311/resume/tree/master",
+      "description": "A personal resume webpage build with React."
+    },
 		{
 			"name": "Pharmacy mask map",
 			"tags": [

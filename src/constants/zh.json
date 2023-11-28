@@ -24,7 +24,11 @@
 				"撰寫單元測試 (Jest)",
 				"升級舊網站執行環境(Nodejs 8到Nodejs 12)"
 			],
-			"tags": []
+			"tags": [
+				"Nextjs",
+				"TypeScript",
+				"Jest"
+      ]
 		},
 		{
 			"name": "晟悅科技有限公司",
@@ -37,7 +41,11 @@
 				"與後端工程師討論API規格",
 				"寫出符合團隊規範的程式碼風格"
 			],
-			"tags": []
+			"tags": [
+        "React",
+				"GraphQL",
+				"Git"
+      ]
 		}
 	],
 	"schools_zh": [
@@ -53,6 +61,18 @@
 		}
 	],
 	"portfolio_zh": [
+    {
+      "name": "部落格",
+      "tags": ["Nextjs", "tailwind", "TypeScript", "Contentlayer", "MDX"],
+      "link": "https://www.taiyi.dev",
+      "description": "紀錄日常開發和學習筆記"
+    },
+    {
+      "name": "履歷",
+      "tags": ["React", "Tailwind", "i18n"],
+      "link": "https://github.com/moved0311/resume/tree/master",
+      "description": ""
+    },
 		{
 			"name": "口罩地圖",
 			"tags": [

@@ -23,7 +23,7 @@ const Portfolio = () => {
 					<div className="flex items-center">
 						<h4 className="text-[18px] inline-block mr-2 font-bold">{name}
 						</h4>
-						<ul className="flex items-center gap-2 text-xs font-semibold">{tags?.map(tag => <li key={tag} className="py-[0.5px] px-2 rounded-md border-[1px] border-black">{tag}</li>)}</ul>
+						<ul className="flex items-center gap-2 flex-wrap text-xs font-semibold">{tags?.map(tag => <li key={tag} className="py-[0.5px] px-2 rounded-md border-[1px] border-black">{tag}</li>)}</ul>
 					</div>
 					<p>{description}</p>
 					<a href={link} className="pl-5 relative before:absolute before:top-[2px] before:left-0 before:content-link">{link}</a>
