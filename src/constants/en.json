@@ -24,10 +24,20 @@
 				"Jest"
 			],
 			"description": [
-				"Enhance SEO. (Use semantic tags correctly, Core Web Vital, SSR)",
-				"Reduce the number of API calls. (React Query)",
-				"Write unit tests. (Jest)",
-				"Upgrade the old website runtime environment (from Node.js 8 to Node.js 12)."
+				"Redesigned the old website using Next.js 14, with experience in RSC (React Server Components).",
+				"Packaged the website into an image using Docker and deployed it to the GitLab Container Registry with GitLab CI (Docker, CI).",
+				"Experience with data visualization libraries (Highcharts, TradingView).",
+				"Experience with Monorepo (Nx).",
+				"Sent success or failure messages to a Slack channel upon GitLab deployment (Shell Script).",
+				"Collected user data using GTM, GA3, and GA4 (Google Analytics).",
+				"Improved SEO (correct use of tags, meta data).",
+				"Enhanced web performance (Core Web Vitals, SSR, Lazy Load).",
+				"Reduced the number of API calls (React Query, Caching).",
+				"Experience with TypeScript, Tailwind CSS.",
+				"Write unit tests (Jest).",
+				"Upgraded the old website runtime environment (from Node.js 8 to Node.js 12).",
+				"Experience with Unix-like working environments (Oh My Zsh).",
+				"Maintained existing projects and added new features, around 10 different repositories."
 			]
 		},
 		{
@@ -61,18 +71,28 @@
 		}
 	],
 	"portfolio_en": [
-    {
-      "name": "Blog",
-      "tags": ["Nextjs", "tailwind", "TypeScript", "Contentlayer", "MDX"],
-      "link": "https://www.taiyi.dev",
-      "description": "A personal blog used to record some daily development notes."
-    },
-    {
-      "name": "Resume",
-      "tags": ["React", "Tailwind", "i18n"],
-      "link": "https://github.com/moved0311/resume/tree/master",
-      "description": "A personal resume webpage build with React."
-    },
+		{
+			"name": "Blog",
+			"tags": [
+				"Nextjs",
+				"tailwind",
+				"TypeScript",
+				"Contentlayer",
+				"MDX"
+			],
+			"link": "https://www.taiyi.dev",
+			"description": "A personal blog used to record some daily development notes."
+		},
+		{
+			"name": "Resume",
+			"tags": [
+				"React",
+				"Tailwind",
+				"i18n"
+			],
+			"link": "https://github.com/moved0311/resume/tree/master",
+			"description": "A personal resume webpage build with React."
+		},
 		{
 			"name": "Pharmacy mask map",
 			"tags": [

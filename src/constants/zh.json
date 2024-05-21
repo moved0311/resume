@@ -19,16 +19,26 @@
 			"duration": "2021年9月 - 現在",
 			"link": "https://www.cnyes.com/",
 			"description": [
-				"提升SEO(正確使用標籤、網頁核心指標、SSR)",
-				"減少API呼叫次數(React Query)",
+				"使用Nextjs14將舊網頁改版，使用RSC(React Server Component)經驗",
+				"用Docker將網站打包成Image，搭配Gitlab CI佈署到Gitlab Container Registry(Docker、CI)",
+				"視覺化資料函示庫(Highcharts、TradingView)",
+				"使用Monorepo經驗(Nx)",
+				"Gitlab推版成功或失敗發送訊息至Slack頻道(Shell Script)",
+				"GTM、GA3、GA4收集使用者數據(Google Analytics)",
+				"提升SEO(正確使用標籤、meta data)",
+				"改善網頁效能(網頁核心指標、SSR、Lazy Load)",
+				"減少API呼叫次數(React Query、Caching)",
+				"TypeScript、Tailwind CSS",
 				"撰寫單元測試 (Jest)",
-				"升級舊網站執行環境(Nodejs 8到Nodejs 12)"
+				"升級舊網站執行環境(Nodejs 8到Nodejs 12)",
+				"Unix-like工作環境(Oh My Zsh)",
+				"維護既有專案增加新功能，約10個左右不同專案"
 			],
 			"tags": [
 				"Nextjs",
 				"TypeScript",
 				"Jest"
-      ]
+			]
 		},
 		{
 			"name": "晟悅科技有限公司",
@@ -42,10 +52,10 @@
 				"寫出符合團隊規範的程式碼風格"
 			],
 			"tags": [
-        "React",
+				"React",
 				"GraphQL",
 				"Git"
-      ]
+			]
 		}
 	],
 	"schools_zh": [
@@ -61,18 +71,28 @@
 		}
 	],
 	"portfolio_zh": [
-    {
-      "name": "部落格",
-      "tags": ["Nextjs", "tailwind", "TypeScript", "Contentlayer", "MDX"],
-      "link": "https://www.taiyi.dev",
-      "description": "紀錄日常開發和學習筆記"
-    },
-    {
-      "name": "履歷",
-      "tags": ["React", "Tailwind", "i18n"],
-      "link": "https://github.com/moved0311/resume/tree/master",
-      "description": ""
-    },
+		{
+			"name": "部落格",
+			"tags": [
+				"Nextjs",
+				"tailwind",
+				"TypeScript",
+				"Contentlayer",
+				"MDX"
+			],
+			"link": "https://www.taiyi.dev",
+			"description": "紀錄日常開發和學習筆記"
+		},
+		{
+			"name": "履歷",
+			"tags": [
+				"React",
+				"Tailwind",
+				"i18n"
+			],
+			"link": "https://github.com/moved0311/resume/tree/master",
+			"description": ""
+		},
 		{
 			"name": "口罩地圖",
 			"tags": [

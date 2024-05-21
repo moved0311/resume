@@ -9,8 +9,8 @@ import './index.css';
 import { I18nextProvider } from 'react-i18next';
 
 i18next.init({
-  interpolation: {escapeValue: false},
-  lng: 'en',
+  interpolation: { escapeValue: false },
+  lng: 'zh',
   resources: {
     en: {
       global: language_en
@@ -28,7 +28,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <I18nextProvider i18n={i18next}>
-    <App />
+      <App />
     </I18nextProvider>
   </React.StrictMode>
 );
