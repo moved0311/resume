@@ -13,10 +13,25 @@
 	},
 	"companies_zh": [
 		{
+			"name": "美商秝榮量化股份有限公司台灣分公司",
+			"location": "Taipei, TW",
+			"jobTitle": "前端工程師",
+			"duration": "2024年12月 - 2026年2月",
+			"description": [
+				"開發、維護自動化交易系統",
+				"串接盈透證券API取得資料並計算技術指標供策略使用"
+			],
+			"tags": [
+				"React",
+				"Vite",
+				"Python"
+			]
+		},
+		{
 			"name": "鉅亨金融科技股份有限公司",
 			"location": "Taipei, TW",
 			"jobTitle": "前端工程師",
-			"duration": "2021年9月 - 現在",
+			"duration": "2021年9月 - 2024年12月",
 			"link": "https://www.cnyes.com/",
 			"description": [
 				"使用Nextjs14將舊網頁改版，使用RSC(React Server Component)經驗",

@@ -13,10 +13,25 @@
 	},
 	"companies_en": [
 		{
+			"name": "Bonanza Quant Corporation",
+			"location": "Taipei, TW",
+			"jobTitle": "Front-End Engineer",
+			"duration": "Dec 2024 - Feb 2026",
+			"description": [
+				"Develop and maintain automated trading systems",
+				"Connect to Interactive Brokers API to obtain data and calculate technical indicators for strategy use"
+			],
+			"tags": [
+				"React",
+				"Vite",
+				"Python"
+			]
+		},
+		{
 			"name": "Anue",
 			"location": "Taipei, TW",
 			"jobTitle": "Front-End Engineer",
-			"duration": "Sep 2021 - Present",
+			"duration": "Sep 2021 - Dec 2024",
 			"link": "https://www.cnyes.com/",
 			"tags": [
 				"Nextjs",
