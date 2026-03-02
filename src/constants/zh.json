@@ -18,8 +18,9 @@
 			"jobTitle": "前端工程師",
 			"duration": "2024年12月 - 2026年2月",
 			"description": [
-				"開發、維護自動化交易系統",
-				"串接盈透證券API取得資料並計算技術指標供策略使用"
+				"使用 React、Vite、Python 開發與維護自動化交易系統",
+				"串接 Interactive Brokers API 取得即時與歷史市場資料",
+				"實作技術指標計算模組，提供量化策略使用"
 			],
 			"tags": [
 				"React",
