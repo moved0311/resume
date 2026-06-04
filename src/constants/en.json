@@ -2,6 +2,76 @@
   "profile": {
     "name": "江太一 (Tai Yi Jiang)"
   },
+  "coreSkill": {
+    "title": "Core Skill",
+    "items": [
+      {
+        "category": "Frontend",
+        "items": [
+          "React",
+          "Next.js",
+          "Vue",
+          "TypeScript",
+          "JavaScript",
+          "Tailwind CSS",
+          "Vite"
+        ]
+      },
+      {
+        "category": "State and Data",
+        "items": [
+          "React Query",
+          "API integration",
+          "caching strategies"
+        ]
+      },
+      {
+        "category": "Visualization",
+        "items": [
+          "Highcharts",
+          "TradingView"
+        ]
+      },
+      {
+        "category": "Performance and SEO",
+        "items": [
+          "Chrome Performance",
+          "metadata",
+          "SEO tags",
+          "GA3",
+          "GA4",
+          "Google Tag Manager"
+        ]
+      },
+      {
+        "category": "Backend Collaboration",
+        "items": [
+          "Node.js APIs",
+          "Python data processing",
+          "MySQL"
+        ]
+      },
+      {
+        "category": "Tools",
+        "items": [
+          "Git",
+          "Docker",
+          "CI/CD",
+          "Linux",
+          "Shell",
+          "MacOS"
+        ]
+      },
+      {
+        "category": "AI Tools",
+        "items": [
+          "Cursor",
+          "Codepilot",
+          "Codex"
+        ]
+      }
+    ]
+  },
   "workExperience": {
     "title": "Work Experience",
     "items": [
@@ -11,8 +81,12 @@
         "jobTitle": "Front-End Engineer",
         "duration": "Dec 2024 - Feb 2026",
         "description": [
-          "Develop and maintain automated trading systems",
-          "Connect to Interactive Brokers API to obtain data and calculate technical indicators for strategy use"
+          "Built a React dashboard for an automated trading system, allowing users to view system status and manage trading strategy settings.",
+          "Developed Node.js APIs to connect the dashboard with trading configuration data and backend workflows.",
+          "Used MySQL to store strategy configuration, enabling users to update parameters from the web interface.",
+          "Integrated Interactive Brokers Market Data API for real-time market data retrieval.",
+          "Implemented data processing workflows, including data normalization and technical indicator calculation for quantitative trading strategies.",
+          "Implemented trading order workflows by integrating broker APIs."
         ],
         "tags": [
           "React",
@@ -32,20 +106,15 @@
           "Jest"
         ],
         "description": [
-          "Redesigned the old website using Next.js 14, with experience in RSC (React Server Components).",
-          "Packaged the website into an image using Docker and deployed it to the GitLab Container Registry with GitLab CI (Docker, CI).",
-          "Experience with data visualization libraries (Highcharts, TradingView).",
-          "Experience with Monorepo (Nx).",
-          "Sent success or failure messages to a Slack channel upon GitLab deployment (Shell Script).",
-          "Collected user data using GTM, GA3, and GA4 (Google Analytics).",
-          "Improved SEO (correct use of tags, meta data).",
-          "Enhanced web performance (Core Web Vitals, SSR, Lazy Load).",
-          "Reduced the number of API calls (React Query, Caching).",
-          "Experience with TypeScript, Tailwind CSS.",
-          "Write unit tests (Jest).",
-          "Upgraded the old website runtime environment (from Node.js 8 to Node.js 12).",
-          "Experience with Unix-like working environments (Oh My Zsh).",
-          "Maintained existing projects and added new features, around 10 different repositories."
+          "Maintained and developed financial news platforms and stock market information products.",
+          "Built the Taiwan stock information page from scratch using Next.js: https://www.cnyes.com/twstock",
+          "Upgraded the legacy runtime environment from Node.js 8 to Node.js 12, reducing maintenance risk.",
+          "Built financial data visualization interfaces with Highcharts and TradingView.",
+          "Improved SEO through semantic tags, metadata, and page information structure.",
+          "Used Chrome Performance to analyze and improve frontend performance.",
+          "Reduced repeated API requests and improved data loading experience with React Query caching.",
+          "Integrated GA3, GA4, and Google Tag Manager for user behavior tracking and product analytics.",
+          "Improved Git-based development and CI/CD workflows, including Slack release notifications."
         ]
       },
       {
@@ -60,9 +129,9 @@
           "Git"
         ],
         "description": [
-          "Create new feature and reusable React components.",
-          "Communicate with backend through RESTFUL API and Graphql client.",
-          "Write code that meets the team's coding style."
+          "Developed brand and campaign pages with React.",
+          "Built reusable UI components to improve development efficiency.",
+          "Developed Android and iOS applications with Expo."
         ]
       }
     ]

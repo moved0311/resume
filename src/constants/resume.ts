@@ -46,6 +46,7 @@ export const resume = {
       avatar: '/assets/avatar.jpg',
       contacts,
     },
+    coreSkill: language_zh.coreSkill,
     workExperience: language_zh.workExperience,
     education: language_zh.education,
     portfolio: language_zh.portfolio,
@@ -56,9 +57,9 @@ export const resume = {
       avatar: '/assets/avatar.jpg',
       contacts,
     },
+    coreSkill: language_en.coreSkill,
     workExperience: language_en.workExperience,
     education: language_en.education,
     portfolio: language_en.portfolio,
   },
 } as const;
-

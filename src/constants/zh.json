@@ -2,6 +2,76 @@
   "profile": {
     "name": "江太一 (Tai Yi Jiang)"
   },
+  "coreSkill": {
+    "title": "核心技能",
+    "items": [
+      {
+        "category": "前端",
+        "items": [
+          "React",
+          "Next.js",
+          "Vue",
+          "TypeScript",
+          "JavaScript",
+          "Tailwind CSS",
+          "Vite"
+        ]
+      },
+      {
+        "category": "狀態與資料",
+        "items": [
+          "React Query",
+          "API integration",
+          "caching strategies"
+        ]
+      },
+      {
+        "category": "視覺化",
+        "items": [
+          "Highcharts",
+          "TradingView"
+        ]
+      },
+      {
+        "category": "效能與 SEO",
+        "items": [
+          "Chrome Performance",
+          "metadata",
+          "SEO tags",
+          "GA3",
+          "GA4",
+          "Google Tag Manager"
+        ]
+      },
+      {
+        "category": "後端協作",
+        "items": [
+          "Node.js APIs",
+          "Python data processing",
+          "MySQL"
+        ]
+      },
+      {
+        "category": "工具",
+        "items": [
+          "Git",
+          "Docker",
+          "CI/CD",
+          "Linux",
+          "Shell",
+          "MacOS"
+        ]
+      },
+      {
+        "category": "AI 工具",
+        "items": [
+          "Cursor",
+          "Codepilot",
+          "Codex"
+        ]
+      }
+    ]
+  },
   "workExperience": {
     "title": "工作經驗",
     "items": [
@@ -11,9 +81,11 @@
         "jobTitle": "前端工程師",
         "duration": "2024年12月 - 2026年2月",
         "description": [
-          "使用 React、Vite、Python 開發與維護自動化交易系統",
-          "串接 Interactive Brokers API 取得即時與歷史市場資料",
-          "實作技術指標計算模組，提供量化策略使用"
+          "開發 Python 自動化交易系統，負責核心模組實作串接 Interactive Brokers Market Data API。",
+          "建立即時資料擷取與處理流程設計並實作資料處理，包含資料整理與技術指標計算開發技術指標模組，支援量化交易策略（如移動平均、技術分析指標等）",
+          "實作交易下單流程，整合券商 API 完成自動化交易執行設計與管理系統設定檔提升策略部署彈性",
+          "使用React建立前端Dashboard，使用NodeJS建立後端API。",
+          "使用MySQL儲存設定檔，讓使用者可以在Web端修改參數。"
         ],
         "tags": [
           "React",
@@ -28,20 +100,16 @@
         "duration": "2021年9月 - 2024年12月",
         "link": "https://www.cnyes.com/",
         "description": [
-          "使用Nextjs14將舊網頁改版，使用RSC(React Server Component)經驗",
-          "用Docker將網站打包成Image，搭配Gitlab CI佈署到Gitlab Container Registry(Docker、CI)",
-          "視覺化資料函示庫(Highcharts、TradingView)",
-          "使用Monorepo經驗(Nx)",
-          "Gitlab推版成功或失敗發送訊息至Slack頻道(Shell Script)",
-          "GTM、GA3、GA4收集使用者數據(Google Analytics)",
-          "提升SEO(正確使用標籤、meta data)",
-          "改善網頁效能(網頁核心指標、SSR、Lazy Load)",
-          "減少API呼叫次數(React Query、Caching)",
-          "TypeScript、Tailwind CSS",
-          "撰寫單元測試 (Jest)",
+          "維護與開發財金新聞平台與股市資訊平台。",
+          "從0使用Nextjs開發台股資訊頁面(https://www.cnyes.com/twstock)",
           "升級舊網站執行環境(Nodejs 8到Nodejs 12)",
-          "Unix-like工作環境(Oh My Zsh)",
-          "維護既有專案增加新功能，約10個左右不同專案"
+          "Git版本控制，改善CICD流程，Slack版本更新發送通知。",
+          "視覺化資料函示庫(Highcharts、TradingView)呈現股市報價圖",
+          "GA3、GA4收集使用者數據(Google Analytics)",
+          "提升SEO(標籤使用、meta data)",
+          "Chrome Performance改善網頁效能",
+          "Cache減少API呼叫次數(React Query)",
+          "使用Storybook開發測試元件，保持擴展性與容易除錯"
         ],
         "tags": [
           "Nextjs",
