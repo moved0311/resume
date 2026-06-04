@@ -1,23 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import i18next from 'i18next';
-import language_en from 'constants/en.json'
-import language_zh from 'constants/zh.json'
 
 import App from './App';
 import './index.css';
 import { I18nextProvider } from 'react-i18next';
+import { getInitialLanguage, saveLanguage, updateDocumentLanguage, updateLanguageUrl } from 'utils/language';
+
+const initialLanguage = getInitialLanguage();
+
+saveLanguage(initialLanguage);
+updateDocumentLanguage(initialLanguage);
+updateLanguageUrl(initialLanguage);
 
 i18next.init({
   interpolation: { escapeValue: false },
-  lng: 'zh',
+  lng: initialLanguage,
   resources: {
-    en: {
-      global: language_en
-    },
-    zh: {
-      global: language_zh
-    }
+    en: { global: {} },
+    zh: { global: {} }
   }
 })
 

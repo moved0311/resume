@@ -1,121 +1,121 @@
 {
-	"workExperience": {
-		"title": "Work Experience",
-		"companies": "companies_en"
-	},
-	"education": {
-		"title": "Education",
-		"schools": "schools_en"
-	},
-	"portfolio": {
-		"title": "Portfolio",
-		"portfolio": "portfolio_en"
-	},
-	"companies_en": [
-		{
-			"name": "Bonanza Quant Corporation",
-			"location": "Taipei, TW",
-			"jobTitle": "Front-End Engineer",
-			"duration": "Dec 2024 - Feb 2026",
-			"description": [
-				"Develop and maintain automated trading systems",
-				"Connect to Interactive Brokers API to obtain data and calculate technical indicators for strategy use"
-			],
-			"tags": [
-				"React",
-				"Vite",
-				"Python"
-			]
-		},
-		{
-			"name": "Anue",
-			"location": "Taipei, TW",
-			"jobTitle": "Front-End Engineer",
-			"duration": "Sep 2021 - Dec 2024",
-			"link": "https://www.cnyes.com/",
-			"tags": [
-				"Nextjs",
-				"TypeScript",
-				"Jest"
-			],
-			"description": [
-				"Redesigned the old website using Next.js 14, with experience in RSC (React Server Components).",
-				"Packaged the website into an image using Docker and deployed it to the GitLab Container Registry with GitLab CI (Docker, CI).",
-				"Experience with data visualization libraries (Highcharts, TradingView).",
-				"Experience with Monorepo (Nx).",
-				"Sent success or failure messages to a Slack channel upon GitLab deployment (Shell Script).",
-				"Collected user data using GTM, GA3, and GA4 (Google Analytics).",
-				"Improved SEO (correct use of tags, meta data).",
-				"Enhanced web performance (Core Web Vitals, SSR, Lazy Load).",
-				"Reduced the number of API calls (React Query, Caching).",
-				"Experience with TypeScript, Tailwind CSS.",
-				"Write unit tests (Jest).",
-				"Upgraded the old website runtime environment (from Node.js 8 to Node.js 12).",
-				"Experience with Unix-like working environments (Oh My Zsh).",
-				"Maintained existing projects and added new features, around 10 different repositories."
-			]
-		},
-		{
-			"name": "Aptan Inc.",
-			"location": "Taipei, TW",
-			"jobTitle": "Front-End Engineer",
-			"duration": "Feb 2020 - Sep 2021",
-			"link": "https://www.aptan.io",
-			"tags": [
-				"React",
-				"GraphQL",
-				"Git"
-			],
-			"description": [
-				"Create new feature and reusable React components.",
-				"Communicate with backend through RESTFUL API and Graphql client.",
-				"Write code that meets the team's coding style."
-			]
-		}
-	],
-	"schools_en": [
-		{
-			"name": "National Chengchi University (NCCU)",
-			"duration": "Sep 2016 - Jun 2019",
-			"master": "MS Computer Science"
-		},
-		{
-			"name": "National Ilan University (NIU)",
-			"duration": "Sep 2012 - Jun 2016",
-			"master": "BS Electronic Engineering"
-		}
-	],
-	"portfolio_en": [
-		{
-			"name": "Blog",
-			"tags": [
-				"Nextjs",
-				"tailwind",
-				"TypeScript",
-				"Contentlayer",
-				"MDX"
-			],
-			"link": "https://www.taiyi.dev",
-			"description": "A personal blog used to record some daily development notes."
-		},
-		{
-			"name": "Resume",
-			"tags": [
-				"React",
-				"Tailwind",
-				"i18n"
-			],
-			"link": "https://github.com/moved0311/resume/tree/master",
-			"description": "A personal resume webpage build with React."
-		},
-		{
-			"name": "Pharmacy mask map",
-			"tags": [
-				"React",
-				"Leafletjs"
-			],
-			"link": "https://moved0311.github.io/pharmacy-mask-map/",
-			"description": "Show the mask inventory of specialty pharmacies in the area through the map."
-		}
-	]
+  "profile": {
+    "name": "江太一 (Tai Yi Jiang)"
+  },
+  "workExperience": {
+    "title": "Work Experience",
+    "items": [
+      {
+        "name": "Bonanza Quant Corporation",
+        "location": "Taipei, TW",
+        "jobTitle": "Front-End Engineer",
+        "duration": "Dec 2024 - Feb 2026",
+        "description": [
+          "Develop and maintain automated trading systems",
+          "Connect to Interactive Brokers API to obtain data and calculate technical indicators for strategy use"
+        ],
+        "tags": [
+          "React",
+          "Vite",
+          "Python"
+        ]
+      },
+      {
+        "name": "Anue",
+        "location": "Taipei, TW",
+        "jobTitle": "Front-End Engineer",
+        "duration": "Sep 2021 - Dec 2024",
+        "link": "https://www.cnyes.com/",
+        "tags": [
+          "Nextjs",
+          "TypeScript",
+          "Jest"
+        ],
+        "description": [
+          "Redesigned the old website using Next.js 14, with experience in RSC (React Server Components).",
+          "Packaged the website into an image using Docker and deployed it to the GitLab Container Registry with GitLab CI (Docker, CI).",
+          "Experience with data visualization libraries (Highcharts, TradingView).",
+          "Experience with Monorepo (Nx).",
+          "Sent success or failure messages to a Slack channel upon GitLab deployment (Shell Script).",
+          "Collected user data using GTM, GA3, and GA4 (Google Analytics).",
+          "Improved SEO (correct use of tags, meta data).",
+          "Enhanced web performance (Core Web Vitals, SSR, Lazy Load).",
+          "Reduced the number of API calls (React Query, Caching).",
+          "Experience with TypeScript, Tailwind CSS.",
+          "Write unit tests (Jest).",
+          "Upgraded the old website runtime environment (from Node.js 8 to Node.js 12).",
+          "Experience with Unix-like working environments (Oh My Zsh).",
+          "Maintained existing projects and added new features, around 10 different repositories."
+        ]
+      },
+      {
+        "name": "Aptan Inc.",
+        "location": "Taipei, TW",
+        "jobTitle": "Front-End Engineer",
+        "duration": "Feb 2020 - Sep 2021",
+        "link": "https://www.aptan.io",
+        "tags": [
+          "React",
+          "GraphQL",
+          "Git"
+        ],
+        "description": [
+          "Create new feature and reusable React components.",
+          "Communicate with backend through RESTFUL API and Graphql client.",
+          "Write code that meets the team's coding style."
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "items": [
+      {
+        "name": "National Chengchi University (NCCU)",
+        "duration": "Sep 2016 - Jun 2019",
+        "master": "MS Computer Science"
+      },
+      {
+        "name": "National Ilan University (NIU)",
+        "duration": "Sep 2012 - Jun 2016",
+        "master": "BS Electronic Engineering"
+      }
+    ]
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "items": [
+      {
+        "name": "Blog",
+        "tags": [
+          "Nextjs",
+          "tailwind",
+          "TypeScript",
+          "Contentlayer",
+          "MDX"
+        ],
+        "link": "https://www.taiyi.dev",
+        "description": "A personal blog used to record some daily development notes."
+      },
+      {
+        "name": "Resume",
+        "tags": [
+          "React",
+          "Tailwind",
+          "i18n"
+        ],
+        "link": "https://github.com/moved0311/resume/tree/master",
+        "description": "A personal resume webpage build with React."
+      },
+      {
+        "name": "Pharmacy mask map",
+        "tags": [
+          "React",
+          "Leafletjs"
+        ],
+        "link": "https://moved0311.github.io/pharmacy-mask-map/",
+        "description": "Show the mask inventory of specialty pharmacies in the area through the map."
+      }
+    ]
+  }
 }

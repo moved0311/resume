@@ -1,25 +1,15 @@
-
-import { useTranslation} from 'react-i18next'
 import Section from "components/Section/Section"
-import language_en from "constants/en.json"
-import language_zh from "constants/zh.json"
-
-const SCHOOLS = {
-	"schools_en": language_en.schools_en,
-	"schools_zh": language_zh.schools_zh
-}
-
-type SCHOOLS_KEYS = keyof typeof SCHOOLS
+import useResume from 'hooks/useResume'
 
 const Education = () => {
-	const [t] = useTranslation("global")
-	const schools = SCHOOLS[t("education.schools") as SCHOOLS_KEYS]
+	const { resume } = useResume()
+	const { education } = resume
 
 	return (
 		<>
-		<Section>{t("education.title")}</Section>
+		<Section>{education.title}</Section>
 		<ul>
-			{schools?.map(({name, duration, master}) => <li key={name} className='mb-2'>
+			{education.items.map(({name, duration, master}) => <li key={name} className='mb-2'>
 			<div className="flex items-center justify-between">
 				<h4 className="text-[18px] inline-block mr-2 font-bold">{name}
 				</h4>

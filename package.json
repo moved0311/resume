@@ -2,6 +2,7 @@
   "name": "resume",
   "homepage": "https://moved0311.github.io/resume/",
   "version": "0.1.0",
+  "packageManager": "npm@11.12.1",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",

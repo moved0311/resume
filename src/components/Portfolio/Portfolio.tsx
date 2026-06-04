@@ -1,24 +1,15 @@
-import { useTranslation } from 'react-i18next'
 import Section from "components/Section/Section"
-import language_en from "constants/en.json"
-import language_zh from 'constants/zh.json'
-
-const PORTFOLIOS = {
-	"portfolio_en": language_en.portfolio_en,
-	"portfolio_zh": language_zh.portfolio_zh
-}
-
-type PORTFOLIOS_KEYS = keyof typeof PORTFOLIOS
+import useResume from 'hooks/useResume'
 
 const Portfolio = () => {
-	const [t] = useTranslation("global")
-	const protfolios = PORTFOLIOS[t("portfolio.portfolio") as PORTFOLIOS_KEYS]
+	const { resume } = useResume()
+	const { portfolio } = resume
 
 	return (
 		<>
-			<Section>{t("portfolio.title")}</Section>
+			<Section>{portfolio.title}</Section>
 			<ul>
-				{protfolios?.map(({ name, link, description, tags }) => <li key={name}
+				{portfolio.items.map(({ name, link, description, tags }) => <li key={name}
 					className='mb-2'>
 					<div className="flex items-center">
 						<h4 className="text-[18px] inline-block mr-2 font-bold">{name}
