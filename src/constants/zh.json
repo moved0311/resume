@@ -18,18 +18,11 @@
         ]
       },
       {
-        "category": "狀態與資料",
+        "category": "後端",
         "items": [
-          "React Query",
-          "API integration",
-          "caching strategies"
-        ]
-      },
-      {
-        "category": "視覺化",
-        "items": [
-          "Highcharts",
-          "TradingView"
+          "Node.js APIs",
+          "Python",
+          "MySQL"
         ]
       },
       {
@@ -38,17 +31,8 @@
           "Chrome Performance",
           "metadata",
           "SEO tags",
-          "GA3",
           "GA4",
           "Google Tag Manager"
-        ]
-      },
-      {
-        "category": "後端協作",
-        "items": [
-          "Node.js APIs",
-          "Python data processing",
-          "MySQL"
         ]
       },
       {
@@ -57,16 +41,12 @@
           "Git",
           "Docker",
           "CI/CD",
-          "Linux",
-          "Shell",
-          "MacOS"
+          "Shell"
         ]
       },
       {
         "category": "AI 工具",
         "items": [
-          "Cursor",
-          "Codepilot",
           "Codex"
         ]
       }
@@ -75,6 +55,12 @@
   "workExperience": {
     "title": "工作經驗",
     "items": [
+      {
+        "name": "固緯電子實業股份有限公司",
+        "location": "新北市",
+        "jobTitle": "電源研發部系統軟體開發前端工程師",
+        "duration": "2026年7月 - 至今"
+      },
       {
         "name": "美商秝榮量化股份有限公司台灣分公司",
         "location": "Taipei, TW",

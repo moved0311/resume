@@ -18,18 +18,11 @@
         ]
       },
       {
-        "category": "State and Data",
+        "category": "Backend",
         "items": [
-          "React Query",
-          "API integration",
-          "caching strategies"
-        ]
-      },
-      {
-        "category": "Visualization",
-        "items": [
-          "Highcharts",
-          "TradingView"
+          "Node.js APIs",
+          "Python",
+          "MySQL"
         ]
       },
       {
@@ -44,29 +37,17 @@
         ]
       },
       {
-        "category": "Backend Collaboration",
-        "items": [
-          "Node.js APIs",
-          "Python data processing",
-          "MySQL"
-        ]
-      },
-      {
         "category": "Tools",
         "items": [
           "Git",
           "Docker",
           "CI/CD",
-          "Linux",
-          "Shell",
-          "MacOS"
+          "Shell"
         ]
       },
       {
         "category": "AI Tools",
         "items": [
-          "Cursor",
-          "Codepilot",
           "Codex"
         ]
       }
@@ -75,6 +56,12 @@
   "workExperience": {
     "title": "Work Experience",
     "items": [
+      {
+        "name": "Good Will Instrument Co., Ltd.",
+        "location": "New Taipei City, TW",
+        "jobTitle": "Front-End Engineer",
+        "duration": "Jul 2026 - Present"
+      },
       {
         "name": "Bonanza Quant Corporation",
         "location": "Taipei, TW",
